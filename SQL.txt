@@ -1,0 +1,26 @@
+create database lenon;
+use lenon;
+
+insert into contato (cidade, estado, nome, pais, telefone) 
+values ("Garibaldi", "Rio grande do sul", "Lenon Szynwelski de Paula", "Brasil", "54996844390"),
+("Garibaldi", "Rio grande do sul", "Lenon Szynwelski de Paula", "Brasil", "54996844390"),
+("Garibaldi", "Rio grande do sul", "Lenon Szynwelski de Paula", "Brasil", "54996844390"),
+("Garibaldi", "Rio grande do sul", "Lenon Szynwelski de Paula", "Brasil", "54996844390"),
+("Garibaldi", "Rio grande do sul", "Lenon Szynwelski de Paula", "Brasil", "54996844390"),
+("Garibaldi", "Rio grande do sul", "Lenon Szynwelski de Paula", "Brasil", "54996844390");
+
+ALTER TABLE contato
+MODIFY id bigint(10) not null auto_increment; 
+
+select * from contato
+
+drop database lenon;
+create database lenon;
+use lenon;
+
+drop table carro;
+
+insert into usuario (email, senha) values('lenonsdp@gmail.com', '123');
+insert into carro (ano_modelo, ano_fabricacao, cor, descricao, km, marca, placa, preco, preco_fipe, renavam) values(2019, 2019, 'Preto', 'corre', 5, 'BMW', 'IND-4552', 4500, 4500, 2626266 );
+select * from carro;
+select * from usuario;
