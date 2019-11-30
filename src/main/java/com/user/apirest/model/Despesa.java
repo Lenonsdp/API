@@ -20,7 +20,7 @@ public class Despesa {
 	
 	private float valor;
 
-//    private String data;
+    private int km;
     
 	private java.sql.Date data;
 	
@@ -75,6 +75,14 @@ public class Despesa {
 
 	public void setData(java.sql.Date data) {
 		this.data = data;
+	}
+
+	public int getKm() {
+		return km;
+	}
+
+	public void setKm(int km) {
+		this.km = km;
 	}
 
 }
