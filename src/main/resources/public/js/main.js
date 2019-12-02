@@ -125,7 +125,7 @@
 					success: function (data) {
 						if (data) {
 							window.localStorage.setItem('usuario', data.id);
-							window.location.href = 'https://apirestdev.herokuapp.com/public/views/home.html';
+							window.location.href = 'https://apirestdev.herokuapp.com/views/home.html';
 						} else {
 							alert('Usuário ou senha inválidos.');
 						}

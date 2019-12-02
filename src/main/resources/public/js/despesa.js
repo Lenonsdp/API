@@ -22,7 +22,7 @@ $(function() {
 function vincularEventos() {
 	$('#sair').on('click', function() {
 		window.localStorage.removeItem('usuario');
-		window.location.href = "https://apirestdev.herokuapp.com/public/index.html"
+		window.location.href = "https://apirestdev.herokuapp.com/index.html"
 	});
 
 	$('#veiculo_despesa').on('click', function() {

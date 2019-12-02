@@ -77,11 +77,11 @@ function vincularEventos() {
 
 	$('#sair').on('click', function() {
 		window.localStorage.removeItem('usuario');
-		window.location.href = "https://apirestdev.herokuapp.com/public/index.html"
+		window.location.href = "https://apirestdev.herokuapp.com/index.html"
 	});
 
 	$('#despesas').on('click', function() {
-		window.location.href = "https://apirestdev.herokuapp.com/public/views/despesa.html"
+		window.location.href = "https://apirestdev.herokuapp.com/views/despesa.html"
 	});
 
 
